@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn To Fly Idle | Jibblies</title>
+</head>
+<script src="ruffle-nightly-2025_01_25-web-selfhosted/ruffle.js"></script>
+<embed src="secure_LearnToFlyIdle.swf" width="550" height="400"> </embed>
+</body>
+</html>
