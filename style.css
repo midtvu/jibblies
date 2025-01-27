@@ -1,6 +1,6 @@
 body {
     color: white; /* Sets all text to white */
-    background-image: url(''); /* Replace 'path_to_your_image.png' with the actual path to your PNG file */
+    background-image: url('background.webp'); /* Replace 'path_to_your_image.png' with the actual path to your PNG file */
     background-size: cover; /* Ensures the background image covers the entire body */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     background-position: center; /* Centers the background image */
