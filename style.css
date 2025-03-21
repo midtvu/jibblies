@@ -1,7 +1,44 @@
 body {
-    color: white; /* Sets all text to white */
-    background-image: url('background.webp'); /* Replace 'path_to_your_image.png' with the actual path to your PNG file */
-    background-size: cover; /* Ensures the background image covers the entire body */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    background-position: stretch; /* Centers the background image */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
 }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.menu-item {
+    margin: 0 20px;
+    transition: transform 0.3s;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+}
+
+.mouse-follow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.1s;
+}
+
+document.addEventListener('mousemove', (e) => {
+    const mouseFollow = document.querySelector('.mouse-follow');
+    mouseFollow.style.left = e.pageX + 'px';
+    mouseFollow.style.top = e.pageY + 'px';
+    mouseFollow.style.transform = 'translate(-50%, -50%) rotate(' + (e.pageX / 10) + 'deg)';
+});
