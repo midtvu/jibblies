@@ -6,3 +6,5 @@ also plz fork if ur gonna do that
 i encourage mirrors just in case a block happens
 # add game
 report issue with the game name on it, i will try and close the issue when game is added.
+ALL GAMES HAVE TO BE UNDER 25 MB IN TOTAL
+This is due to GitHub limitations. Once I can get GitHub Desktop or something similar working on MacOS, this limit will go up to 100mb
